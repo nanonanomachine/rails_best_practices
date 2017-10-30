@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.0'
   s.required_rubygems_version = '>= 1.3.6'
 
-  s.add_dependency('activesupport')
+  s.add_dependency('activesupport', '4.2.10')
   # TODO: add a dependency for Rails >= 3 ?
   s.add_dependency('code_analyzer', '>= 0.4.8')
   s.add_dependency('erubis')
